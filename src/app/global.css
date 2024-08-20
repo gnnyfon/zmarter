@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+:root {
+  --carrot: #FBA847;
+  --spinach: #4EA239;
+  --matcha: #ABCB92;
+  --secondary: #C5E8A9;
+  --soil: #A58282;
+  --background1: #FAE6D4;
+  --background2: #EDEBEB;
+  --text-black: #000000;
+  --text-secondary: #828282;
+  --garlic: #ffffff;
+  --success: #27AE60;
+}
+
+.gradient-leaf {
+  background: linear-gradient(90deg, var(--spinach) 0%, var(--matcha) 97%);
+}
+
+.gradient-soil {
+  background: linear-gradient(90deg, var(--soil) 0%, #CC9C8E 100%);
+}
