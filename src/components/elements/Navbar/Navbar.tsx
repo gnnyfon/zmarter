@@ -4,7 +4,7 @@ import Link from 'next/link';
 
 function Navbar() {
   return (
-    <div className="bg-secondary flex">
+    <div className="bg-secondary flex fixed top-0 w-full">
       <div className="flex-1 ml-8">
         <Image src="/images/logo-navbar-zmart.png" alt="Logo Zmart" width={133} height={63}/>
       </div>
