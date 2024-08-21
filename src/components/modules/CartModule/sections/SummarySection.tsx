@@ -2,7 +2,7 @@ import React from "react";
 
 function SummarySection() {
   return (
-    <div className="w-2/5 h-fit bg-white rounded-xl p-5 flex flex-col gap-5">
+    <div className="w-full h-fit bg-white rounded-xl p-5 flex flex-col gap-5">
         <h1 className="font-medium text-lg">Ringkasan pesanan</h1>
         <div className="flex flex-col gap-3 text-sm font-semibold">
             <div className="flex justify-between items-center">
