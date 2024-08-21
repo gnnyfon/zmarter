@@ -1,8 +1,11 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
-    "./pages/**/*.{js,ts,jsx,tsx,mdx}",
-    "./components/**/*.{js,ts,jsx,tsx,mdx}",
+    "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
+    "./src/app/**/**/*.{js,ts,jsx,tsx,mdx}",
+    "./src/components/**/**/*.{js,ts,jsx,tsx,mdx}",
+    "./src/app/_app.tsx",
+    "./src/app/_document.tsx",
   ],
   theme: {
     screens: {
@@ -22,6 +25,7 @@ module.exports = {
       textBlack: "#000000",
       textSecondary: "#828282",
       garlic: "#ffffff",
+      textDarkGreen: "#597A51",
     },
     fontFamily: {
       poppins: ["Poppins", "sans-serif"],

@@ -1,16 +1,15 @@
 import { Metadata } from 'next';
 import { Navbar } from '../components'
+import Image from 'next/image';
+import Link from 'next/link';
 
-export default function Page() {
+function Page() {
   return (
     <>
       <Navbar />
-      ini landing page
-      <div className='gradient-soil bg-black'> yyes</div>
+      <div>hi, this is landing page</div>
     </>
   );
 }
 
-export const metadata: Metadata = {
-  title: 'Zmart'
-};
+export default Page;
