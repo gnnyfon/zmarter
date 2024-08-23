@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 function SummarySection() {
@@ -18,10 +19,10 @@ function SummarySection() {
                 <p className="">Total Akhir</p>
                 <p>Rp31.000</p>
             </div>
-            <button className="gradient-leaf w-full p-2 rounded-md font-semibold text-white
-            hover:shadow-[0_0_10px_1px_rgba(171,203,146,1)] duration-300">
+            <Link href={'/checkout'} className="gradient-leaf w-full p-2 rounded-md font-semibold text-white
+            hover:shadow-[0_0_10px_1px_rgba(171,203,146,1)] text-center duration-300">
                 Checkout
-            </button>
+            </Link>
         </div>
     </div>
   )
