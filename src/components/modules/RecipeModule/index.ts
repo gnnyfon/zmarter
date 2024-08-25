@@ -1,1 +1,5 @@
 export * from './RecipeListModule'
+export * from './RecipeDescriptionSection'
+export * from './RecipeIngredientsSection'
+export * from './RecipeShopSection'
+export * from './RecipeStepSection'

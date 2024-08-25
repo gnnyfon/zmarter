@@ -1,4 +1,4 @@
-export const recipeData: { title: string; image: string }[] = [
+const recipeData: { title: string; image: string }[] = [
     {
         title: 'Sop Bayam Jagung',
         image: '/images/img-resep-sup_bayam_jagung.jpg',
@@ -48,3 +48,32 @@ export const recipeData: { title: string; image: string }[] = [
         image: '/images/img-resep-telur_dadar_bayam.webp',
     },
   ];
+
+const recipeStep: {number: string; step:string}[] = [
+    {
+        number: '1',
+        step: 'Petiki sayur bayam, cuci bersih. Potong-potong jagung, cuci bersih.'
+    },
+    {
+        number: '2',
+        step: 'Rebus air hingga mendidih, masukkan jagung, masak hingga matang empuk.'
+    },
+    {
+        number: '3',
+        step: 'Masukkan bayam, kencur iris tipis, dan daun salam. Aduk rata.'
+    },
+    {
+        number: '4',
+        step: 'Cincang bawang putih dan bawang merah. Masukkan ke dalam sayur rebus.'
+    },
+    {
+        number: '5',
+        step: 'Masukkan  beserta garam, gula dan kaldu bubuk secukupnya.'
+    },
+    {
+        number: '6',
+        step: 'Tes rasa, jika rasa sudah pas dan sayuran empuk matang, angkat.'
+    },
+];
+  
+export { recipeData, recipeStep };

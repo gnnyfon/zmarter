@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import Image from "next/image";
+import Link from 'next/link';
 
 type RecipeCardProps = {
     image: string,
@@ -10,6 +11,7 @@ function RecipeCard({
     image, 
     title}: 
     RecipeCardProps) {
+  
   const starIcons = Array(5).fill(null);
 
   return (
@@ -40,7 +42,9 @@ function RecipeCard({
             </div>
         </div>
         <div>
-            <button className='w-28 h-7 gradient-leaf-button text-garlic font-medium text-sm rounded-md mt-6 mb-6 shadow-lg shadow-matcha/50 hover:text-spinach hover:font-bold hover:outline hover:outline-spinach hover:outline-3'>Lihat Resep</button>
+            <button className='w-28 h-7 gradient-leaf-button text-garlic font-medium text-sm rounded-md mt-6 mb-6 shadow-lg shadow-matcha/50 hover:text-spinach hover:font-bold hover:outline hover:outline-spinach hover:outline-3'>
+              <Link href="/resep/detail" legacyBehavior><a>Lihat Resep</a></Link>
+            </button>
         </div>
       </div>
     </div>
