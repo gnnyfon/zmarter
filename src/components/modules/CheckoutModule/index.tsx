@@ -2,13 +2,14 @@
 import { Navbar } from "@/components/elements";
 import React, { useState } from "react";
 import Item from "./module-elements/Item";
+import Footer from "@/components/elements/Footer";
 
 function CheckoutModule() {
     const [method, setMethod] = useState('kurir')
     return (
-        <div className="flex flex-col items-center min-h-screen py-10 gap-2 bg-[#F0F3F7]">
+        <div className="flex flex-col items-center min-h-screen pt-10 gap-2 bg-[#F0F3F7]">
             <Navbar />
-            <main className="flex gap-6 mt-10 w-4/5">
+            <main className="flex gap-6 my-10 w-4/5">
                 <section className="w-full flex flex-col gap-5">
                     <div className="w-full flex items-center justify-between">
                         <h1 className="font-bold text-2xl w-full">Keranjang</h1>
@@ -79,6 +80,7 @@ function CheckoutModule() {
                     
                 </section>
             </main>
+            <Footer />
         </div>
     )
 }
