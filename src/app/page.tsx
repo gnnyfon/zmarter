@@ -1,5 +1,5 @@
 import { Metadata } from 'next';
-import { Navbar } from '../components'
+import { Navbar, Searchbar } from '../components'
 import Image from 'next/image';
 import Link from 'next/link';
 
@@ -7,7 +7,8 @@ function Page() {
   return (
     <>
       <Navbar />
-      <div>hi, this is landing page</div>
+      <Searchbar input="Mau masak apa hari ini?"/>
+      <div className='text-textBlack'>hi, this is landing pagedd</div>
     </>
   );
 }
