@@ -6,7 +6,7 @@ function Navbar() {
   return (
     <div className="bg-secondary flex fixed top-0 w-full">
       <div className="flex-1 ml-8">
-        <Image src="/images/logo-navbar-zmart.png" alt="Logo Zmart" width={133} height={63}/>
+        <Image src="/images/logo-navbar-zmart.png" alt="Logo Zmart" width={130} height={60}/>
       </div>
       <div className="text-textBlack mt-5 mr-8">
         <Link href="/" legacyBehavior><a className="navigation">Homepage</a></Link>
