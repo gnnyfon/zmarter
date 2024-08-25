@@ -42,3 +42,7 @@
 .navigation {
   @apply mr-8 font-light text-base hover:font-bold hover:text-textDarkGreen;
 }
+
+.gradient-auth {
+  background: linear-gradient(90deg, var(--secondary) 0%, #DDF1CC 23%, var(--garlic) 87%);
+}
