@@ -23,6 +23,14 @@
   background: linear-gradient(90deg, var(--spinach) 0%, var(--matcha) 97%);
 }
 
+.gradient-leaf-button {
+  background: linear-gradient(90deg, var(--spinach) 0%, var(--matcha) 97%);
+}
+
+.gradient-leaf-button:hover {
+  background: var(--garlic);
+}
+
 .gradient-soil {
   background: linear-gradient(90deg, var(--soil) 0%, #CC9C8E 100%);
 }
