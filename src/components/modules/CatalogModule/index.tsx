@@ -7,7 +7,8 @@ export const CatalogModule = () => {
     return (
         <div className="flex flex-col">
             <Navbar />
-            <Searchbar input="Mau masak apa hari ini?"/>
+            <div className="pt-2">
+            <Searchbar input="Mau belanja apa hari ini?"/>
             <main className="flex flex-col gap-3 mt-10 items-center w-full">
                 <div className="w-full flex">
                     <div className="w-1/5"> {/* 20% width */}
@@ -18,6 +19,7 @@ export const CatalogModule = () => {
                     </div>
                 </div>
             </main>
+            </div>
         </div>
     )
 }
