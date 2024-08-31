@@ -37,11 +37,7 @@ function Page() {
                   fontFamily: 'Poppins',
                   fontWeight: '400',
                   wordWrap: 'break-word'
-              }}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                  dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                  aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
-                  dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
-                  officia deserunt mollit anim id est laborum.
+              }}>Merupakan misi Zmart untuk membantu mengurangi masalah sampah makanan rumah tangga Indonesia yang sudah sangat menggunung. Bersama-sama kita sayangi lingkungan dengan memaksimalkan konsumsi bahan pangan dari supermarket favoritmu. Zmart menjamin kualitas bahan makanan agar tetap layak diolah menjadi masakan untuk keluarga di rumah. Temukan juga resep makanan lezat yang dapat diolah dari keranjangmu!
               </div>
           </div>
           <div className="w-full flex space-x-4 p-4">
