@@ -5,6 +5,7 @@ import { Navbar } from "@/components/elements"
 import { Searchbar } from "@/components/elements"
 import CatalogCategorySection from "./sections/CatalogCategorySection"
 import CatalogCardSection from "./sections/CatalogCardSection"
+import Footer from '@/components/elements/Footer';
 
 export const CatalogModule = () => {
     const [selectedCategory, setSelectedCategory] = useState('all');
@@ -24,6 +25,7 @@ export const CatalogModule = () => {
                 </div>
             </main>
             </div>
+            <Footer />
         </div>
     )
 }

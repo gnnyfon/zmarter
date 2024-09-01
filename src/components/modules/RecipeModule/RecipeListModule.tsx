@@ -1,5 +1,6 @@
 import { Searchbar, Navbar, RecipeCard } from "@/components";
 import { recipeData } from "./recipeData";
+import Footer from "@/components/elements/Footer";
 
 function RecipeListModule() {
     return <>
@@ -11,6 +12,7 @@ function RecipeListModule() {
         ))
       }
       </div>
+      <Footer />
     </>
   }
 

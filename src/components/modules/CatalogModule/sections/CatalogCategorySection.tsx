@@ -20,7 +20,9 @@ const categories: Category[] = [
     { id: 8, name: 'Roti & Kue', imgSrc: '/images/roti-dan-kue.png' },
 ];
 
-const CatalogCategorySection: React.FC = ({ onSelectCategory }) => {
+const CatalogCategorySection = ({ onSelectCategory }: {
+    onSelectCategory: React.Dispatch<React.SetStateAction<string>>
+}) => {
     const [activeCategory, setActiveCategory] = useState<number | null>(null);
 
     const handleCategoryClick = (id: number, name: string) => {
