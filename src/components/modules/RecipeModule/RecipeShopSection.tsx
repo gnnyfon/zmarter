@@ -1,4 +1,5 @@
 import Image from "next/image";
+import CatalogCard from "../CatalogModule/module-elements/CatalogCard";
 
 function RecipeShopSection() {
     const starIcons = Array(5).fill(null)
@@ -10,8 +11,10 @@ function RecipeShopSection() {
                 <Image src="/images/elm-line.png" alt="green line" width={829} height={100}/>
             </div>
         </div>
-        <div className="rounded-lg shadow-lg bg-garlic h-80 w-3/4 ml-6 p-10 overflow-y-auto mt-4 mb-8">
-           nunggu sabre mo copas
+        <div className="w-full flex flex-col gap-4 p-2">
+            <div className="w-full grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 p-2">
+                <CatalogCard selectedCategory='Sayur' />
+            </div>
         </div>
       </div>
     </>
