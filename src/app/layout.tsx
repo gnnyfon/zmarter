@@ -1,4 +1,6 @@
+import { CartProvider } from '@/components/contexts/CartContext';
 import './global.css';
+import { Toaster } from 'sonner';
 
 export const metadata = {
   title: 'Zmart',
@@ -11,7 +13,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <Toaster richColors />
+      <CartProvider>
+        <body>{children}</body>
+      </CartProvider>
     </html>
   )
 }

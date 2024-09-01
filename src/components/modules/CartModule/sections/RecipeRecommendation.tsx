@@ -20,10 +20,10 @@ function RecipeRecommendation() {
                             <Link href='/' className="gradient-soil duration-300 hover:shadow-[0_0_10px_1px_rgba(165,130,130,1)] text-sm p-2 rounded-md">
                                 Lihat resep
                             </Link>
-                            <Link href='/' className="gradient-soil duration-300 hover:shadow-[0_0_10px_1px_rgba(165,130,130,1)]
+                            {/* <Link href='/' className="gradient-soil duration-300 hover:shadow-[0_0_10px_1px_rgba(165,130,130,1)]
                             text-sm p-2 rounded-md">
                                 Simpan resep
-                            </Link>
+                            </Link> */}
                         </div>
                     </div>
                 </div>
@@ -36,10 +36,10 @@ function RecipeRecommendation() {
                             <Link href='/' className="gradient-soil duration-300 hover:shadow-[0_0_10px_1px_rgba(165,130,130,1)] text-sm p-2 rounded-md">
                                 Lihat resep
                             </Link>
-                            <Link href='/' className="gradient-soil duration-300 hover:shadow-[0_0_10px_1px_rgba(165,130,130,1)]
+                            {/* <Link href='/' className="gradient-soil duration-300 hover:shadow-[0_0_10px_1px_rgba(165,130,130,1)]
                             text-sm p-2 rounded-md">
                                 Simpan resep
-                            </Link>
+                            </Link> */}
                         </div>
                     </div>
                 </div>

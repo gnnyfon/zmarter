@@ -3,10 +3,11 @@ import { Navbar, Searchbar } from '../components'
 import Image from 'next/image';
 import Link from 'next/link';
 import React from "react";
+import Footer from '@/components/elements/Footer';
 
 function Page() {
   return (
-      <div className="flex flex-col item-center gap-2">
+      <div className="flex flex-col item-center gap-10">
           <Navbar/>
           <Image src={'/images/landing.png'} width={1440} height={254} className="w-full object-cover mt-10"
                  alt={"zmart"}/>
@@ -215,6 +216,7 @@ function Page() {
                   </div>
               </div>
           </div>
+          <Footer />
       </div>
   );
 }
