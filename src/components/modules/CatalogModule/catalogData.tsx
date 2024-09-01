@@ -1,0 +1,118 @@
+export type catalogType = { category: string; image: string; name: string; price: number; sold: number }
+
+const catalogData: catalogType[] = [
+    {
+        category: 'Sayur',
+        image: '/images/bayam.png',
+        name: 'Bayam',
+        price: 2500,
+        sold: 5,
+    },
+    {
+        category: 'Sayur',
+        image: '/images/jagung.png',
+        name: 'Jagung',
+        price: 5000,
+        sold: 5,
+    },
+    {
+        category: 'Sayur',
+        image: '/images/tomat.jpg',
+        name: 'Tomat',
+        price: 5000,
+        sold: 5,
+    },
+    {
+        category: 'Sayur',
+        image: '/images/kangkung.jpg',
+        name: 'Kangkung',
+        price: 2500,
+        sold: 5,
+    },
+    {
+        category: 'Sayur',
+        image: '/images/sawi-putih.jpg',
+        name: 'Sawi Putih',
+        price: 3000,
+        sold: 5,
+    },
+    {
+        category: 'Sayur',
+        image: '/images/pakcoy.jpg',
+        name: 'Pakcoy',
+        price: 3000,
+        sold: 5,
+    },
+    {
+        category: 'Sayur',
+        image: '/images/timun.jpg',
+        name: 'Mentimun',
+        price: 3000,
+        sold: 5,
+    },
+    {
+        category: 'Sayur',
+        image: '/images/brokoli.jpg',
+        name: 'Brokoli',
+        price: 5000,
+        sold: 5,
+    },
+    {
+        category: 'Sayur',
+        image: '/images/oyong.jpg',
+        name: 'Sayur Oyong',
+        price: 4000,
+        sold: 5,
+    },
+    {
+        category: 'Buah',
+        image: '/images/shine-muscat.jpg',
+        name: 'Anggur Shine Muscat',
+        price: 43000,
+        sold: 5,
+    },
+    {
+        category: 'Buah',
+        image: '/images/pisang.jpg',
+        name: 'Pisang',
+        price: 10000,
+        sold: 5,
+    },
+    {
+        category: 'Daging',
+        image: '/images/ayam.jpg',
+        name: 'Ayam Broiler',
+        price: 34000,
+        sold: 5,
+    },
+    {
+        category: 'Makanan Ringan',
+        image: '/images/kusuka.jpg',
+        name: 'Kusuka Original',
+        price: 7000,
+        sold: 5,
+    },
+    {
+        category: 'Minuman',
+        image: '/images/fruit-tea.jpg',
+        name: 'Fruit Tea Anggur',
+        price: 7000,
+        sold: 5,
+    },
+    {
+        category: 'Roti & Kue',
+        image: '/images/sari-roti.jpg',
+        name: 'Sari Roti Kupas',
+        price: 16000,
+        sold: 5,
+    },
+    {
+        category: 'Susu & Olahan',
+        image: '/images/keju.jpg',
+        name: 'Keju Cheddar',
+        price: 25000,
+        sold: 5,
+    },
+];
+
+export { catalogData };

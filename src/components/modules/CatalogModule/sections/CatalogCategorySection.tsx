@@ -20,11 +20,14 @@ const categories: Category[] = [
     { id: 8, name: 'Roti & Kue', imgSrc: '/images/roti-dan-kue.png' },
 ];
 
-const CatalogCategorySection: React.FC = () => {
+const CatalogCategorySection = ({ onSelectCategory }: {
+    onSelectCategory: React.Dispatch<React.SetStateAction<string>>
+}) => {
     const [activeCategory, setActiveCategory] = useState<number | null>(null);
 
-    const handleCategoryClick = (id: number) => {
+    const handleCategoryClick = (id: number, name: string) => {
         setActiveCategory(id);
+        onSelectCategory(name);
     };
 
     return (
@@ -33,7 +36,7 @@ const CatalogCategorySection: React.FC = () => {
                 {categories.map(category => (
                     <button
                         key={category.id}
-                        onClick={() => handleCategoryClick(category.id)}
+                        onClick={() => handleCategoryClick(category.id, category.name)}
                         className={`flex items-center p-4 transition-colors duration-300 ${
                             activeCategory === category.id
                                 ? 'bg-[#C5E8A9]'

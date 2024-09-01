@@ -3,10 +3,11 @@ import { Navbar, Searchbar } from '../components'
 import Image from 'next/image';
 import Link from 'next/link';
 import React from "react";
+import Footer from '@/components/elements/Footer';
 
 function Page() {
   return (
-      <div className="flex flex-col item-center gap-2">
+      <div className="flex flex-col item-center gap-10">
           <Navbar/>
           <Image src={'/images/landing.png'} width={1440} height={254} className="w-full object-cover mt-10"
                  alt={"zmart"}/>
@@ -37,11 +38,7 @@ function Page() {
                   fontFamily: 'Poppins',
                   fontWeight: '400',
                   wordWrap: 'break-word'
-              }}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                  dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                  aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
-                  dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
-                  officia deserunt mollit anim id est laborum.
+              }}>Merupakan misi Zmart untuk membantu mengurangi masalah sampah makanan rumah tangga Indonesia yang sudah sangat menggunung. Bersama-sama kita sayangi lingkungan dengan memaksimalkan konsumsi bahan pangan dari supermarket favoritmu. Zmart menjamin kualitas bahan makanan agar tetap layak diolah menjadi masakan untuk keluarga di rumah. Temukan juga resep makanan lezat yang dapat diolah dari keranjangmu!
               </div>
           </div>
           <div className="w-full flex space-x-4 p-4">
@@ -219,6 +216,7 @@ function Page() {
                   </div>
               </div>
           </div>
+          <Footer />
       </div>
   );
 }
