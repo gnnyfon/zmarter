@@ -18,7 +18,7 @@ function RecipeIngredientsSection() {
             <p className="text-textBlack text-xl font-regular">• <span className="text-spinach font-medium">1 sdt</span> Gula</p>
             <p className="text-textBlack text-xl font-regular">• <span className="text-spinach font-medium">1 sdt</span> Garam</p>
             <p className="text-textBlack text-xl font-regular">• <span className="text-spinach font-medium">1 helai</span> Daun Salam</p>
-            <p className="text-textBlack text-xl font-regular">• <span className="text-spinach font-medium">1 sdm</span> Minyak Gpreng</p>
+            <p className="text-textBlack text-xl font-regular">• <span className="text-spinach font-medium">1 sdm</span> Minyak Goreng</p>
             <p className="text-textBlack text-xl font-regular">• <span className="text-spinach font-medium">200 ml</span> Air</p>
         </div>
       </div>

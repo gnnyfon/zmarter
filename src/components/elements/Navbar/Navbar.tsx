@@ -13,7 +13,7 @@ function Navbar() {
         <Link href="/resep" legacyBehavior><a className="navigation">Resep</a></Link>
         <Link href="/bahan" legacyBehavior><a className="navigation">Bahan</a></Link>
         <Link href="/keranjang" legacyBehavior><a className="navigation">Keranjang</a></Link>
-        <Link href="/profile" legacyBehavior><a className="navigation">Profile</a></Link>
+        {/* <Link href="/profile" legacyBehavior><a className="navigation">Profile</a></Link> */}
         <Link href="/auth/login" legacyBehavior><a className="navigation">Logout</a></Link>
       </div>
     </div>
